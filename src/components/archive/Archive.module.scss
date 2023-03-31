@@ -1,0 +1,23 @@
+.content {
+}
+
+.table {
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 15px;
+  color: rgb(90, 79, 79);
+  &__head__row {
+    display: grid;
+    grid-template-columns: 19px 54px 81px 90px 10px;
+    border-bottom: 0.5px solid #838c95;
+    padding: 15px;
+    gap: 15px;
+  }
+  &__inner {
+    display: grid;
+    grid-template-columns: 25px 57px 87px 63px 151px;
+    padding: 15px;
+    gap: 15px;
+  }
+}

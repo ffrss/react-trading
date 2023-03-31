@@ -1,0 +1,36 @@
+.window {
+  width: 480px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  &__hat {
+    display: flex;
+    &_trading {
+      cursor: pointer;
+      padding: 15px;
+      border-bottom: 1px solid gray;
+      border-radius: 0 5px 0 0;
+    }
+    &_archive {
+      cursor: pointer;
+      padding: 15px;
+      border-bottom: 1px solid gray;
+    }
+    &_blank {
+      flex-grow: 1;
+      border-bottom: 1px solid gray;
+    }
+  }
+}
+
+.activeTrading {
+  border-right: 1px solid gray;
+  border-bottom: none;
+  border-radius: 0 5px 0 0;
+}
+
+.activeArchive {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-radius: 5px 5px 0 0;
+  border-bottom: none;
+}

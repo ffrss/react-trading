@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-trading/static/css/main.5f66c253.css",
+    "main.js": "/react-trading/static/js/main.652417ef.js",
+    "index.html": "/react-trading/index.html",
+    "main.5f66c253.css.map": "/react-trading/static/css/main.5f66c253.css.map",
+    "main.652417ef.js.map": "/react-trading/static/js/main.652417ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f66c253.css",
+    "static/js/main.652417ef.js"
+  ]
+}

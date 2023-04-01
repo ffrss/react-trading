@@ -15,7 +15,6 @@ const Order = ({ setActive, order, price, select, setOrders, date }) => {
         price,
         select,
         volume,
-        // time: `${date.toLocaleDateString() + date.toLocaleTimeString()}`,
         time:
           `${date.toLocaleDateString()}` + " " + `${date.toLocaleTimeString()}`,
       },

@@ -9,7 +9,6 @@ const App = () => {
         <div className={styles.container__inner}>
           <div className={styles.container__inner_info}>
             <p>Тестовое задание для JS разработчика</p>
-            <p>Выполнил: Султанов Р.Р. (tg: ff_ss)</p>
           </div>
           <Home />
         </div>
